@@ -3,7 +3,7 @@ module Data.Argonaut.Generic.Util where
 import Prelude
 import Data.Array (head, null, length)
 import Data.Foldable (all)
-import Data.Generic (DataConstructor, GenericSignature(..), GenericSpine(..), toSignature)
+import Data.Generic.Rep (DataConstructor, GenericSignature(..), GenericSpine(..), toSignature)
 import Data.Maybe (fromMaybe, Maybe(..))
 import Data.String (lastIndexOf, drop, Pattern(..))
 import Type.Proxy (Proxy(..))

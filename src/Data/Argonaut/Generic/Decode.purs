@@ -18,7 +18,7 @@ import Data.Argonaut.Generic.Options (Options(..), SumEncoding(..), dummyUserDec
 import Data.Array (zipWithA, length)
 import Data.Either (Either(Right, Left))
 import Data.Foldable (find)
-import Data.Generic (class Generic, DataConstructor, GenericSignature(..), GenericSpine(..), fromSpine, toSignature)
+import Data.Generic.Rep (class Generic, DataConstructor, GenericSignature(..), GenericSpine(..), fromSpine, toSignature)
 import Data.Int (fromNumber)
 import Data.Maybe (Maybe(..), fromMaybe, maybe)
 import Data.String (toChar)

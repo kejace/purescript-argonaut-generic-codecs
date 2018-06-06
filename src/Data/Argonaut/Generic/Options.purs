@@ -6,7 +6,7 @@ module Data.Argonaut.Generic.Options where
 
 
 import Data.Argonaut.Core (Json())
-import Data.Generic (GenericSpine, GenericSignature)
+import Data.Generic.Rep (GenericSpine, GenericSignature)
 import Data.Either (Either)
 import Data.Maybe (Maybe(..))
 

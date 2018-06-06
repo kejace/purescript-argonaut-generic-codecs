@@ -8,7 +8,7 @@ import Data.Argonaut.Core (Json)
 import Data.Argonaut.Generic.Options (Options(..), SumEncoding(..), dummyUserDecoding, dummyUserEncoding)
 import Data.Argonaut.Generic.Encode (genericEncodeJson)
 import Data.Argonaut.Generic.Decode (genericDecodeJson)
-import Data.Generic (class Generic)
+import Data.Generic.Rep (class Generic)
 import Data.Either (Either)
 
 

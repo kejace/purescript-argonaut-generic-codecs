@@ -17,7 +17,7 @@ import Data.Argonaut.Generic.Options (Options(..), SumEncoding(..), dummyUserDec
 import Data.Argonaut.Generic.Util (allConstructorsNullary, isUnaryRecord, sigIsMaybe, spineIsRecord)
 import Data.Array (head, length, concatMap, filter, zip, zipWith)
 import Data.Foldable (foldr)
-import Data.Generic (class Generic, GenericSpine(..), toSpine, GenericSignature(..), DataConstructor, toSignature)
+import Data.Generic.Rep (class Generic, GenericSpine(..), toSpine, GenericSignature(..), DataConstructor, toSignature)
 import Data.Int (toNumber)
 import Data.Maybe (Maybe(Just, Nothing), fromMaybe)
 import Data.String (singleton)
