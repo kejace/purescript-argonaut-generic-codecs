@@ -11,7 +11,7 @@ module Data.Argonaut.Generic.Aeson
 import Prelude
 import Data.Array.Partial as Unsafe
 import Data.List as L
-import Data.StrMap as SM
+import Data.Map as M
 import Control.Alt ((<|>))
 import Data.Argonaut.Core (JArray, Json, toArray, toObject, fromObject, isNull, jsonNull, fromArray)
 import Data.Argonaut.Generic.Decode (genericUserDecodeJson', mFail, genericDecodeJson)

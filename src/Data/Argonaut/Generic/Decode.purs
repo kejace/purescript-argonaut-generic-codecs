@@ -11,7 +11,7 @@ module Data.Argonaut.Generic.Decode
 
 import Data.Argonaut.Generic.Util
 import Data.Array.Partial as Unsafe
-import Data.StrMap as M
+import Data.Map as M
 import Data.Argonaut.Core (Json, fromArray, fromObject, jsonNull, toArray,
                           toBoolean, toNumber, toObject, toString, stringify)
 import Data.Argonaut.Generic.Options (Options(..), SumEncoding(..), dummyUserDecoding, dummyUserEncoding)

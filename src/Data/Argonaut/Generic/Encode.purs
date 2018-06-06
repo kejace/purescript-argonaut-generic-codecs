@@ -10,7 +10,7 @@ module Data.Argonaut.Generic.Encode
 
 import Prelude
 import Data.Array.Partial as Unsafe
-import Data.StrMap as SM
+import Data.Map as M
 import Control.MonadPlus (guard)
 import Data.Argonaut.Core (toObject, JObject, fromString, fromArray, Json, jsonNull, fromBoolean, fromNumber, fromObject)
 import Data.Argonaut.Generic.Options (Options(..), SumEncoding(..), dummyUserDecoding, dummyUserEncoding)
